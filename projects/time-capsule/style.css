@@ -1,0 +1,55 @@
+.main-wrapper {
+	width: 100vw;
+	height: 100vh;
+}
+
+.main-column {
+	width: 14.28%;
+	height: 100%;
+	float: left;
+}
+
+.c1 {
+	background:URL(file:///Users/maddie/leeh779.github.io/assets/imgs/ts/ts-01.jpg);
+	background-position: center;
+	cursor: pointer;
+}
+
+.c2 {
+	background:URL(file:///Users/maddie/leeh779.github.io/assets/imgs/ts/ts-02.jpg);
+	background-position: center;
+	cursor: pointer;
+}
+
+.c3 {
+	background:URL(file:///Users/maddie/leeh779.github.io/assets/imgs/ts/ts-03.jpg);
+	background-position: center;
+	cursor: pointer;
+}
+
+.c4 {
+	background:URL(file:///Users/maddie/leeh779.github.io/assets/imgs/ts/ts-04.jpg);
+	background-position: center;
+	cursor: pointer;
+}
+
+.c5 {
+	background:URL(file:///Users/maddie/leeh779.github.io/assets/imgs/ts/ts-05.jpg);
+	background-position: center;
+	cursor: pointer;
+}
+
+.c6 {
+	background:URL(file:///Users/maddie/leeh779.github.io/assets/imgs/ts/ts-06.jpg);
+	background-position: center;
+	cursor: pointer;
+}
+
+.c7 {
+	background:URL(file:///Users/maddie/leeh779.github.io/assets/imgs/ts/ts-07.jpg);
+	background-position: center;
+	cursor: pointer;
+}
+
+/* background:URL(assets/imgs/ts/ts-01.jpg); */
+
