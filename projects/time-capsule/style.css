@@ -1,65 +1,74 @@
 body {
-	background-color: #000000;
+	background-color: #000;
 }
 
-
-.main-wrapper {
-	width: 100vw;
-	height: 100vh;
-}
-
-.format-column {
-	width: 14.28%;
-	height: 100%;
+.format-circle {
+	width: 15vw;
+	height: 25vh;
 	float: left;
-}
-
-.c4-column {
-	width: 14.28%;
-	height: 100%;
-	float: left;
-}
-
-.c4-column:hover {
-	width: 100%;
-	height: 100%;
-	float: left;
+	border-radius: 50vw;
+	background-position: center;
 }
 
 .c1 {
 	background:URL(assets/imgs/ts-01.jpg) no-repeat;
-	background-position: center;
+	background-size: 100% 100%;
+	margin: 2% 0 0 45%;
 }
 
 .c2 {
-	background:URL(file:///Users/maddie/leeh779.github.io/assets/imgs/ts/ts-02.jpg) no-repeat;
-	background-position: center;
+	background:URL(assets/imgs/ts-02.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin: 3% 0 0 1%;
 }
 
 .c3 {
-	background:URL(file:///Users/maddie/leeh779.github.io/assets/imgs/ts/ts-03.jpg) no-repeat;
-	background-position: center;
+	background:URL(assets/imgs/ts-03.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin: 15% 0 0 -5%;
 }
 
 .c4 {
-	background:URL(file:///Users/maddie/leeh779.github.io/assets/imgs/ts/ts-04.jpg) no-repeat;
-	background-position: center;
+	background:URL(assets/imgs/ts-04.jpg) no-repeat;
+	background-size: 100% 100%;
 	cursor: pointer;
+	margin: 30% 0 0 -18%;
 }
 
 .c5 {
-	background:URL(file:///Users/maddie/leeh779.github.io/assets/imgs/ts/ts-05.jpg) no-repeat;
-	background-position: center;
+	background:URL(assets/imgs/ts-05.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin: 37% 0 0 -32%;
 }
 
 .c6 {
-	background:URL(file:///Users/maddie/leeh779.github.io/assets/imgs/ts/ts-06.jpg) no-repeat;
-	background-position: center;
+	background:URL(assets/imgs/ts-06.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin: 30% 0 0 -47%;
 }
 
 .c7 {
-	background:URL(file:///Users/maddie/leeh779.github.io/assets/imgs/ts/ts-07.jpg) no-repeat;
-	background-position: center;
+	background:URL(assets/imgs/ts-07.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin: 15% 0 0 -50%;
+}
+
+.c8 {
+	background:URL(assets/imgs/ts-08.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin: 15% 0 0 -63%;
+}
+
+.c9 {
+	background:URL(assets/imgs/ts-09.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin: 15% 0 0 -75%;
+}
+
+.c10 {
+	background:URL(assets/imgs/ts-10.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin: 15% 0 0 -85%;
 }
 
 /* background:URL(assets/imgs/ts/ts-01.jpg); */
