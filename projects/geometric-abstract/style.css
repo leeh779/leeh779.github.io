@@ -46,6 +46,11 @@ body {
     border-bottom: 10vw solid #000;
 }
 
+.bar1 {
+    width: 5vw;
+    height: 10vh;
+}
+
 .absolute {
     position: absolute;
     width: 30vw;
@@ -55,8 +60,22 @@ body {
 
 .relative {
     position: relative;
-    width: 5vw;
-    height: 10vh;
+}
+
+.trapezoid1 {
+    border-bottom: 16vw solid red;
+    border-left: 3.7vh solid transparent;
+    border-right: 3.8vh solid transparent;
+    height: 0;
+    width: 6vw;
+}
+
+.trapezoid2 {
+    border-bottom: 7vw solid black;
+    border-left: 5.5vh solid transparent;
+    border-right: 5.5vh solid transparent;
+    height: 0;
+    width: 4vw;
 }
 
 .fixed {
