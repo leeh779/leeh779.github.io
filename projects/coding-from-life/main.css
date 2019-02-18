@@ -62,12 +62,16 @@ body {
 }
 
 .table-front:after {
-  content: 'Drawing 1';
+  content: 'Drawing 1 >';
   white-space: pre;
   font-size: 5vw;
   color: #fff;
   font-family: courier;
-  padding-left: 60%;
+  padding-left: 53%;
+}
+
+.table-front:hover {
+  background-color:#ff0000;
 }
 
 .panel-wrapper {
