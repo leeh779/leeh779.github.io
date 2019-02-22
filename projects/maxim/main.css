@@ -16,6 +16,10 @@ body {
 	height: 100vh;
 }
 
+.fairbg {
+	background:URL();
+}
+
 .ffrepeat {
 	width: 100%;
 	height: 100%;
@@ -47,6 +51,10 @@ body {
 	font-size: 3vw;
 }
 
+.quote:hover {
+	transform: skew(-30deg);
+}
+
 .quote-r {
 	position: absolute;
 	float: left;
@@ -56,28 +64,6 @@ body {
 	color: #730000;
 	cursor: pointer;
 	font-size: 3vw;
-}
-
-.quotesmall {
-	position: absolute;
-	float: left;
-	font-family: poynter-oldstyle-display, serif;
-	font-weight: 600;
-	font-style: normal;
-	color: #fff;
-	cursor: pointer;
-	font-size: 2vw;
-}
-
-.quotesmall-r {
-	position: absolute;
-	float: left;
-	font-family: poynter-oldstyle-display, serif;
-	font-weight: 600;
-	font-style: normal;
-	color: #730000;
-	cursor: pointer;
-	font-size: 2vw;
 }
 
 .quote1 {
@@ -182,15 +168,15 @@ body {
 
 .quote20 {
 	display: none;
-	margin: ;
+	margin: 20% 0 0 35%;
 }
 
 .quote21 {
 	display: none;
-	margin: ;
+	margin: 25% 0 0 35%;
 }
 
 .quote22 {
 	display: none;
-	margin: ;
+	margin: 30% 0 0 35%;
 }

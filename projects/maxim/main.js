@@ -75,70 +75,78 @@ $(".quote8").click(function(){
 $('.quote9').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote10').fadeOut(0);
-	$('.quote10').fadeIn(1000);
+	$('.quote10').fadeIn(500);
 });
 
 $('.quote10').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote11').fadeOut(0);
-	$('.quote11').fadeIn(1000);
+	$('.quote11').fadeIn(500);
 });
 
 $('.quote11').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote12').fadeOut(0);
-	$('.quote12').fadeIn(1000);
+	$('.quote12').fadeIn(500);
 });
 
 $('.quote12').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote13').fadeOut(0);
-	$('.quote13').fadeIn(1000);
+	$('.quote13').fadeIn(500);
 });
 
 $('.quote13').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote14').fadeOut(0);
-	$('.quote14').fadeIn(1000);
+	$('.quote14').fadeIn(500);
 });
 
 $('.quote14').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote15').fadeOut(0);
-	$('.quote15').fadeIn(1000);
+	$('.quote15').fadeIn(500);
 });
 
 
 $('.quote15').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote16').fadeOut(0);
-	$('.quote16').fadeIn(1000);
+	$('.quote16').fadeIn(500);
 });
 
 $('.quote16').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote17').fadeOut(0);
-	$('.quote17').fadeIn(1000);
+	$('.quote17').fadeIn(500);
 });
 
 $('.quote17').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote18').fadeOut(0);
-	$('.quote18').fadeIn(1000);
+	$('.quote18').fadeIn(500);
 });
 
 
 $('.quote18').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote19').fadeOut(0);
-	$('.quote19').fadeIn(1000);
+	$('.quote19').fadeIn(500);
 });
 
 
 $('.quote19').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote20').fadeOut(0);
-	$('.quote20').fadeIn(1000);
+	$('.quote20').fadeIn(500);
+});
+
+
+$(".quote19").click(function(){
+   $('html').css({"backgroundColor" : "#000000"});
+   $(".quote1, .quote2, .quote3, .quote4, .quote5, .quote6, .quote7, .quote8, .quote9, .quote10, .quote11, .quote12, .quote13, .quote14, .quote15, .quote16, .quote17, .quote18, .quote19").each(function(){
+    $(this).fadeOut(1000);
+}); 
 });
 
 
@@ -162,6 +170,8 @@ $(document).ready(function () {
         })
     })
 });
+
+
 /*
 for (var i = 0; i < 996; i++) {
     document.write("Four is fair, fair is foul. ");
