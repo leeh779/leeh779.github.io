@@ -1,9 +1,5 @@
 html { 
 	height: 100%;
-	/*background: rgb(255,0,0);
-	background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(115,0,0,1) 100%);
-	background-repeat: no-repeat;
-	background-attachment: fixed;*/
 }
 
 body {
@@ -181,7 +177,6 @@ body {
 	margin: 56% 0 0 5%;
 }
 
-/*여기서부터 다시!*/
 .quote19 {
 	display: none;
 	margin: 60% 0 0 55%;

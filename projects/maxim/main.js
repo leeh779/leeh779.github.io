@@ -15,19 +15,7 @@ $('.quote1').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote2').fadeOut(0);
 	$('.quote2').fadeIn(1000);
-	/*$('html').css({"background" : "linear-gradient(-45deg, #ff0000, #3f0909, #281919, #740000)",
-				   "background-size" : "400% 400%",
-				   "-webkit-animation" : "Gradient 15s ease infinite",
-				   "animation" : "Gradient 15s ease infinite"
-				});*/
 });
-
-/*
-	"background" : "linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(115,0,0,1) 100%)",
-				   "background" : "rgb(255,0,0)",
-				   "background-repeat" : "no-repeat",
-				   "background-attachment" : "fixed"
-				   */
 
 
 
@@ -242,16 +230,3 @@ $(document).ready(function () {
         })
     })
 });
-
-
-/*
-for (var i = 0; i < 996; i++) {
-    document.write("Four is fair, fair is foul. ");
-}
-
-
-
-for (var i = 0; i < 1000; i++) {
-  document.write("<p class='ffrepeat'></p>");
-}
-*/
