@@ -15,13 +15,21 @@ $('.quote1').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote2').fadeOut(0);
 	$('.quote2').fadeIn(1000);
-	$('html').css({"background" : "linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(115,0,0,1) 100%)",
+	/*$('html').css({"background" : "linear-gradient(-45deg, #ff0000, #3f0909, #281919, #740000)",
+				   "background-size" : "400% 400%",
+				   "-webkit-animation" : "Gradient 15s ease infinite",
+				   "animation" : "Gradient 15s ease infinite"
+				});*/
+});
+
+/*
+	"background" : "linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(115,0,0,1) 100%)",
 				   "background" : "rgb(255,0,0)",
 				   "background-repeat" : "no-repeat",
 				   "background-attachment" : "fixed"
-});
+				   */
 
-});
+
 
 $('.quote2').click(function(){
 	console.log('i clicked this', $(this));
@@ -66,7 +74,7 @@ $('.quote8').click(function(){
 });
 
 $(".quote8").click(function(){
-   $('html').css({"backgroundColor" : "#000000"});
+   $('html').css({"background" : "#000000"});
    $(".quote1, .quote2, .quote3, .quote4, .quote5, .quote6, .quote7").each(function(){
     $(this).fadeOut(1000);
 }); 
@@ -92,20 +100,27 @@ $('.quote11').click(function(){
 
 $('.quote12').click(function(){
 	console.log('i clicked this', $(this));
-	$('.quote13').fadeOut(0);
+	$('.quote13, .quote12').fadeOut(0);
 	$('.quote13').fadeIn(500);
+	$('.quote9').delay(500).fadeOut(350);
+	$('.quote10').delay(300).fadeOut(750);
 });
 
 $('.quote13').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote14').fadeOut(0);
 	$('.quote14').fadeIn(500);
+	$('.quote12').delay(500).fadeIn(700);
+	$('.quote9').delay(270).fadeIn(550);
 });
 
 $('.quote14').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote15').fadeOut(0);
 	$('.quote15').fadeIn(500);
+	$('.quote13').delay(300).fadeIn(800);
+	$('.quote9').delay(500).fadeOut(350);
+	$('.quote10').fadeIn(550);
 });
 
 
@@ -113,18 +128,28 @@ $('.quote15').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote16').fadeOut(0);
 	$('.quote16').fadeIn(500);
+	$('.quote15').fadeIn(200);
+	$('.quote13').delay(100).fadeOut(100);
+	$('.quote9').delay(200).fadeIn(150);
 });
 
 $('.quote16').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote17').fadeOut(0);
+	$('.quote15').delay(100).fadeOut(200);
 	$('.quote17').fadeIn(500);
+	$('.quote13').delay(200).fadeIn(350);
+	$('.quote12').delay(190).fadeOut(990);
 });
 
 $('.quote17').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote18').fadeOut(0);
 	$('.quote18').fadeIn(500);
+	$('.quote14').delay(200).fadeIn(100);
+	$('.quote16').fadeOut(50);
+	$('.quote12').delay(320).fadeIn(690);
+	$('.quote9').fadeIn(350);
 });
 
 
@@ -132,35 +157,72 @@ $('.quote18').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote19').fadeOut(0);
 	$('.quote19').fadeIn(500);
+	$('.quote14').delay(200).fadeIn(100);
+	$('.quote17').delay(900).fadeOut(300);
+	$('.quote15').delay(200).fadeOut(250);
+	$('.quote10').delay(350).fadeOut(350);
 });
 
 
 $('.quote19').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote20').fadeOut(0);
-	$('.quote20').fadeIn(500);
+	$('.quote20').fadeIn(2000);
+	$('.quote16').delay(800).fadeOut(100);
+	$('.quote10').delay(150).fadeOut(650);
 });
 
 
 $(".quote19").click(function(){
    $('html').css({"backgroundColor" : "#000000"});
-   $(".quote1, .quote2, .quote3, .quote4, .quote5, .quote6, .quote7, .quote8, .quote9, .quote10, .quote11, .quote12, .quote13, .quote14, .quote15, .quote16, .quote17, .quote18, .quote19").each(function(){
-    $(this).fadeOut(1000);
+   $('.quote1').delay(100).fadeOut(300);
+   $('.quote2').fadeOut(900);
+   $('.quote3').fadeOut(350);
+   $('.quote4').fadeOut(100);
+   $('.quote5').delay(10).fadeOut(510);
+   $('.quote6').fadeOut(680);
+   $('.quote7').fadeOut(250);
+   $('.quote8').fadeOut(700);
+   $('.quote9').fadeOut(420);
+   $('.quote10').fadeOut(100);
+   $('.quote11').delay(40).fadeOut(100);
+   $('.quote12').fadeOut(300);
+   $('.quote13').fadeOut(100);
+   $('.quote14').fadeOut(700);
+   $('.quote15').fadeOut(850);
+   $('.quote16').delay(280).fadeOut(100);
+   $('.quote17').fadeOut(200);
+   $('.quote18').fadeOut(590);
+   $('.quote19').fadeOut(620);
+   $('.quote20').delay(1000).fadeIn(5000);
+   /*$(".quote1, .quote2, .quote3, .quote4, .quote5, .quote6, .quote7, .quote8, .quote9, .quote10, .quote11, .quote12, .quote13, .quote14, .quote15, .quote16, .quote17, .quote18, .quote19").each(function(){
+    $(this).fadeOut(2000);*/
 }); 
-});
-
 
 $('.quote20').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote21').fadeOut(0);
-	$('.quote21').fadeIn(1000);
+	$('.quote21').fadeIn(3000);
 });
 
 $('.quote21').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote22').fadeOut(0);
-	$('.quote22').fadeIn(1000);
+	$('.quote22').fadeIn(3000);
 });
+
+$('.quote22').click(function(){
+	console.log('i clicked this', $(this));
+	$('.quote23').fadeOut(0);
+	$('.quote23').fadeIn(3000);
+});
+
+$(".quote23").click(function(){
+   $(".quote20, .quote21, .quote22, .quote23").each(function(){
+    $(this).fadeOut(2000);
+}); 
+});
+
 
 
 $(document).ready(function () {
