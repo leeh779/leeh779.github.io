@@ -9,8 +9,8 @@ body {
 .bgcolor {
 	background: linear-gradient(-45deg, #ff0000, #3f0909, #281919, #740000);
 	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	animation : Gradient 15s ease infinite;
+	-webkit-animation: Gradient 2s ease infinite;
+	animation : Gradient 2s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
