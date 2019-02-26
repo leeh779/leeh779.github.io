@@ -77,6 +77,11 @@ body {
 	transform: skew(30deg);
 }
 
+ /* AUDIO CONTROLS */
+ .maximbgm {
+   visibility: hidden;
+ }
+
 .volume {
 	font-family: poynter-oldstyle-display, serif;
 	font-weight: 600;
