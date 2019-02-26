@@ -1,13 +1,15 @@
-$('body').click(function(){
-	console.log('i clicked this', $(this));
-	$('.volume').fadeOut(0);
-});
+/*
+$(function() {
+	$('.ffrepeat').text('Four is fair, fair is foul. ');
 
-$('.volume').click(function(){
-	console.log('i clicked this', $(this));
-	$('.quote1').fadeOut(0);
-	$('.quote1').fadeIn(1000);
+	var elements = document.getElementsByClassName("ffrepeat");
+	for (var i = 0; i < 1000; i++) {
+	    $('.ffrepeat').append("Four is fair, fair is foul. ");
+	};
 });
+*/
+
+
 
 $('.quote1').click(function(){
 	console.log('i clicked this', $(this));
@@ -132,8 +134,6 @@ $('.quote17').click(function(){
 	console.log('i clicked this', $(this));
 	$('.quote18').fadeOut(0);
 	$('.quote18').fadeIn(500);
-	$('.quote18a').fadeOut(0);
-	$('.quote18a').fadeIn(500);
 	$('.quote14').delay(200).fadeIn(100);
 	$('.quote16').fadeOut(50);
 	$('.quote12').delay(320).fadeIn(690);
