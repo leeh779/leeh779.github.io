@@ -61,7 +61,6 @@ if ( hour >= 7 && hour <= 9) {
 	console.log("It's NOT between 7pm and 9:40pm.")
 }
 
-
 /*8*/
 var d = new Date();
 var dateValue = d.getDay();
@@ -78,7 +77,7 @@ if ( dateValue == 0 ) {
 	console.log ("It's going to be a good day!")
 } else if ( dateValue == 5 ) {
 	console.log ("TGIF")
-} else {
+} else if ( dateValue == 6 ) {
 	console.log ("Woohoo! Start of the weekend!")
 }
 
