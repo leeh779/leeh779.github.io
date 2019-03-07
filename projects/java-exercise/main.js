@@ -86,7 +86,7 @@ if ( dateValue == 0 ) {
 var favFood = ['chicken','apple','cake'];
 console.log(favFood);
 
-var favAnimal = ['dog','cat','turtle'];
+var favAnimal = ['dog','cat','sloth'];
 console.log(favAnimal);
 
 var favPlace = ['NYC','Seoul','JejuIsland'];
@@ -105,11 +105,21 @@ var arrayLink = [
 console.log(arrayLink);
 
 /*11*/
+
+/*
 var arrayOfArr = [
 	['chicken','apple','cake'],
 	['dog','sloth','turtle'],
 	['NYC','Seoul','JejuIsland'],
 	['Pikachu','Snorlax','Bulbasaur']
+];
+You can change these lines like below */
+
+var arrayOfArr = [
+	favFood,
+	favAnimal,
+	favPlace,
+	favPokemon
 ];
 
 console.log("My favorite foods are: ", arrayOfArr[0]);
