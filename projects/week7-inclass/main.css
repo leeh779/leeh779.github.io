@@ -8,6 +8,8 @@ body, html {
 }
 
 .bgimg-1 {
+  display: flex;
+
   position: relative;
   opacity: 1;
   background-attachment: fixed;
@@ -27,7 +29,7 @@ body, html {
 }
 
 .caption2 {
-  position: absolute;
+  position: relative;
   left: 0;
   width: 100%;
   text-align: center;
@@ -49,6 +51,14 @@ h3 {
   color: white;
 }
 
+
+@media only screen and (min-device-width: 500px) {
+  .cation2 {
+    display: none;
+  }
+}
+
+
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -61,12 +71,21 @@ h3 {
 
 
 /* contents */
-.chanel-wrapper {
+/* .chanel-wrapper {
   position: absolute;
   left: 38%;
   top: 30%;
   width: 100%;
   color: #000;
+}*/
+
+.chanel-wrapper {
+  display: flex;
+	align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #000;
+  justify-content:
 }
 
 .abs {
@@ -81,7 +100,6 @@ h3 {
 	z-index: 2;
 	opacity: 0;
 	width: 39vw;
-	margin: 0 0 0 -8%;
 	animation-fill-mode: forwards;
 	animation: fadeIn ease-in 1;
 	animation-fill-mode: forwards;
@@ -104,44 +122,44 @@ h3 {
 }
 
 .c1 {
-	margin: -10% 0 0 4.5%;
+	margin: -12% 0 0 1%;
 	animation: conePosition 1s ease-in-out;
 }
 
 @keyframes conePosition {
 	0% {
-		margin: -15% 0 0 4.5%;
+		margin: -17% 0 0 1%;
 	}
 	100% {
-		margin: -10% 0 0 4.5%;
+		margin: -12% 0 0 1%;
 	}
 }
 
 .c2 {
-	margin: 1% 0 0 0;
+	margin: -4% 0 0 -4%;
 	animation: ctwoPosition 1s ease-in;
 }
 
 @keyframes ctwoPosition {
 	0% {
-		margin: 1% 0 0 -6%;
+		margin: -4% 0 0 -9%;
 	}
 	100% {
-		margin: 1% 0 0 0;
+		margin: -4% 0 0 -4%;
 	}
 }
 
 .c3 {
-	margin: 1% 0 0 9%;
+	margin: -4% 0 0 5%;
 	animation: cthreePosition 1s ease-in;
 }
 
 @keyframes cthreePosition {
 	0% {
-		margin: 1% 0 0 15%;
+		margin: -4% 0 0 10%;
 	}
 	100% {
-		margin: 1% 0 0 9%;
+		margin: -4% 0 0 5%;
 	}
 } 
 
@@ -185,16 +203,18 @@ h3 {
 }
 
 .group2-screenshot {
+	float: right;
+	width: 30vw;
 	z-index: 3;
-	position: absolute;
-	margin: -4% 0 0 0;
-	transform: scale(0.6);
 	box-shadow: 3vw 3vw 3vw rgba(68, 68, 68, 0.5);
 }
 
 
 .group3 {
-	background: URL(assets/chanel-bg.jpg);
+	position: relative;
+	background: URL(assets/chanel-bg.jpg) no-repeat;
+	background-size: background;
+    background-position: 0%;
 	color: #777; 
 	/*background-color: #f5cfcc; */
 	padding: 50px 80px;
@@ -203,7 +223,7 @@ h3 {
 
 .intro-headline {
 	width: 55%;
-	font-size: 3vw;
+	font-size: 4vw;
 	font-family: century-gothic, sans-serif;
 	font-weight: 700;
 	font-style: normal;
@@ -218,14 +238,15 @@ h3 {
 
 
 .group3-link {
+	position: relative;
+	float: left;
 	cursor: pointer;
 	background: black;
 	color: white;
-	margin: 2vw 0 0 27.5vw;
+	/*margin: 2vw 0 0 27.5vw;*/
 	padding: 1.5vw 2vw;
 	width: 20%;
-	font-size: 1vw;
-	text-align: center;
+	text-align: left;
 	font-family: century-gothic, sans-serif;
 	font-weight: 400;
 	font-style: normal;
