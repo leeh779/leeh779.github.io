@@ -12,10 +12,10 @@ $(function() {
   // the individual DOM element you clicked.
   var $clickTarget = $(event.target);
 
-  $clickTarget.remove();
+  $clickTarget.append('<div>i clicked this</div>');
 });
 
-  $(document).on('click', function(event) {
+$(document).on('click', function(event) {
   event.preventDefault();
 
   var $clickTarget = $(event.target);

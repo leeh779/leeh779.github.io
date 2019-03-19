@@ -37,8 +37,8 @@ $(function() {
 	/*4th*/
 	$('.textbox').click(function(){
 	  var i = Math.floor((Math.random()*5));
-	  $('#flexdisplay-boxes').children().removeClass('fillbg','purpletext');
-	  $('#flexdisplay-boxes').children().eq(i).css({'background-color':'purple', 'color':'#fff'});
+	  $('#flexdisplay-boxes').children().removeClass('fillbg');
+	  $('#flexdisplay-boxes').children().eq(i).addClass('fillbg');
 	});
 
   //

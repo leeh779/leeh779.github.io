@@ -29,11 +29,6 @@ body {
 	align-items: center;
 }
 
-.fillbg {
-	background-color: purple;
-	color: #fff;
-}
-
 .box {
 	display: flex;
 	flex-direction: row;
@@ -49,6 +44,11 @@ body {
 
 .purpletext {
 	color: purple;
+}
+
+.fillbg {
+	background-color: purple;
+	color: #fff;
 }
 
 .whitetext {
