@@ -6,48 +6,21 @@ var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator
      $('#playAudio').remove() //just to make sure that it will not have 2x audio in the background 
   }
 
-$('body').click(function(){
-	console.log('i clicked this', $(this));
-	$('.volume').fadeOut(0);
-});
-
-$('.volume').click(function(){
-	console.log('i clicked this', $(this));
-	$('.quote1').fadeOut(0);
-	$('.quote1').fadeIn(1000);
-});
 
 $('.quote1').click(function(){
 	console.log('i clicked this', $(this));
-	$('.quote2').fadeOut(0);
-	$('.quote2').fadeIn(1000);
+	$('.quote2').delay(280).fadeOut(0);
+	$('.quote2').delay(1480).fadeIn(1300);
+	$('.quote3').delay(380).fadeOut(0);
+	$('.quote3').delay(780).fadeIn(1200);
+	$('.quote4').delay(80).fadeOut(0);
+	$('.quote4').delay(210).fadeIn(1700);
+	$('.quote5').delay(580).fadeOut(0);
+	$('.quote5').delay(1380).fadeIn(1900);
+	$('.quote6').delay(20).fadeOut(0);
+	$('.quote6').delay(310).fadeIn(2300);
 });
 
-
-
-$('.quote2').click(function(){
-	console.log('i clicked this', $(this));
-	$('.quote3').fadeOut(0);
-	$('.quote3').fadeIn(1000);
-});
-
-$('.quote3').click(function(){
-	console.log('i clicked this', $(this));
-	$('.quote4').fadeOut(0);
-	$('.quote4').fadeIn(1000);
-});
-
-$('.quote4').click(function(){
-	console.log('i clicked this', $(this));
-	$('.quote5').fadeOut(0);
-	$('.quote5').fadeIn(1000);
-});
-
-$('.quote5').click(function(){
-	console.log('i clicked this', $(this));
-	$('.quote6').fadeOut(0);
-	$('.quote6').fadeIn(1000);
-});
 
 $('.quote6').click(function(){
 	console.log('i clicked this', $(this));
@@ -76,87 +49,58 @@ $(".quote8").click(function(){
 
 $('.quote9').click(function(){
 	console.log('i clicked this', $(this));
-	$('.quote10').fadeOut(0);
-	$('.quote10').fadeIn(500);
+   $('html, body').animate({
+        scrollTop: $(document).height()
+    }, 'slow');
+   $('.quote10').fadeOut(0);
+   $('.quote10').delay(1680).fadeIn(1100);
+   $('.quote11').delay(1420).fadeIn(850);
+   $('.quote12').delay(1820).fadeIn(1250);
+   $('.quote13').delay(1300).fadeIn(490);
+   $('.quote14').delay(1920).fadeIn(150);
+   $('.quote15').delay(1490).fadeIn(900);
+   $('.quote16').delay(1500).fadeIn(350);
+   $('.quote17').delay(1230).fadeIn(850);
+   $('.quote18').delay(920).fadeIn(720);
+   $('.quote19').delay(1290).fadeIn(1000);
 });
-
-$('.quote10').click(function(){
-	console.log('i clicked this', $(this));
-	$('.quote11').fadeOut(0);
-	$('.quote11').fadeIn(500);
-});
-
-$('.quote11').click(function(){
-	console.log('i clicked this', $(this));
-	$('.quote12').fadeOut(0);
-	$('.quote12').fadeIn(500);
-});
-
-$('.quote12').click(function(){
-	console.log('i clicked this', $(this));
-	$('.quote13, .quote12').fadeOut(0);
-	$('.quote13').fadeIn(500);
-	$('.quote9').delay(500).fadeOut(350);
-	$('.quote10').delay(300).fadeOut(750);
-});
-
-$('.quote13').click(function(){
-	console.log('i clicked this', $(this));
-	$('.quote14').fadeOut(0);
-	$('.quote14').fadeIn(500);
-	$('.quote12').delay(500).fadeIn(700);
-	$('.quote9').delay(270).fadeIn(550);
-});
-
-$('.quote14').click(function(){
-	console.log('i clicked this', $(this));
-	$('.quote15').fadeOut(0);
-	$('.quote15').fadeIn(500);
-	$('.quote13').delay(300).fadeIn(800);
-	$('.quote9').delay(500).fadeOut(350);
-	$('.quote10').fadeIn(550);
-});
-
-
-$('.quote15').click(function(){
-	console.log('i clicked this', $(this));
-	$('.quote16').fadeOut(0);
-	$('.quote16').fadeIn(500);
-	$('.quote15').fadeIn(200);
-	$('.quote13').delay(100).fadeOut(100);
-	$('.quote9').delay(200).fadeIn(150);
-});
-
-$('.quote16').click(function(){
-	console.log('i clicked this', $(this));
-	$('.quote17').fadeOut(0);
-	$('.quote15').delay(100).fadeOut(200);
-	$('.quote17').fadeIn(500);
-	$('.quote13').delay(200).fadeIn(350);
-	$('.quote12').delay(190).fadeOut(990);
-});
-
-$('.quote17').click(function(){
-	console.log('i clicked this', $(this));
-	$('.quote18').fadeOut(0);
-	$('.quote18').fadeIn(500);
-	$('.quote18a').fadeOut(0);
-	$('.quote18a').fadeIn(500);
-	$('.quote14').delay(200).fadeIn(100);
-	$('.quote16').fadeOut(50);
-	$('.quote12').delay(320).fadeIn(690);
-	$('.quote9').fadeIn(350);
-});
-
 
 $('.quote18').click(function(){
 	console.log('i clicked this', $(this));
-	$('.quote19').fadeOut(0);
-	$('.quote19').fadeIn(500);
-	$('.quote14').delay(200).fadeIn(100);
-	$('.quote17').delay(900).fadeOut(300);
-	$('.quote15').delay(200).fadeOut(250);
-	$('.quote10').delay(350).fadeOut(350);
+   $('html, body').animate({
+        scrollTop: $(document).height()
+    }, 'slow');
+   $('.quote8').delay(380).fadeOut(100);
+   $('.quote9').delay(680).fadeOut(700);
+   $('.quote10').delay(980).fadeOut(400);
+   $('.quote11').delay(1420).fadeOut(150);
+   $('.quote12').delay(720).fadeOut(350);
+   $('.quote13').delay(1300).fadeOut(490);
+   $('.quote14').delay(1520).fadeOut(150);
+   $('.quote15').delay(590).fadeOut(730);
+   $('.quote16').delay(1100).fadeOut(350);
+   $('.quote17').delay(1230).fadeOut(550);
+   $('.quote19').delay(890).fadeOut(290);
+   $('.ladymacbeth').delay(1000).fadeOut(0);
+   $('.ladymacbeth').delay(1000).fadeIn(1000);
+});
+
+$('.ladymacbeth').click(function(){
+   $('html, body').animate({
+        scrollTop: $(document).height()
+    }, 'slow');
+   $('.ladymacbeth').fadeOut(300);
+   $('.quote10').fadeOut(0);
+   $('.quote10').delay(1680).fadeIn(1100);
+   $('.quote11').delay(1420).fadeIn(850);
+   $('.quote12').delay(1820).fadeIn(1250);
+   $('.quote13').delay(1300).fadeIn(490);
+   $('.quote14').delay(1920).fadeIn(150);
+   $('.quote15').delay(1490).fadeIn(900);
+   $('.quote16').delay(1500).fadeIn(350);
+   $('.quote17').delay(1230).fadeIn(850);
+   $('.quote18').delay(920).fadeIn(720);
+   $('.quote19').delay(1290).fadeIn(1000);
 });
 
 
@@ -167,7 +111,6 @@ $('.quote19').click(function(){
 	$('.quote16').delay(800).fadeOut(100);
 	$('.quote10').delay(150).fadeOut(650);
 });
-
 
 $(".quote19").click(function(){
    $('html').css({"backgroundColor" : "#000000"});
@@ -201,27 +144,14 @@ $(".quote19").click(function(){
    $('.quote8').fadeOut(300);
    $('.quote7').fadeOut(250);
    $('.quote20').delay(1000).fadeIn(5000);
-   /*$(".quote1, .quote2, .quote3, .quote4, .quote5, .quote6, .quote7, .quote8, .quote9, .quote10, .quote11, .quote12, .quote13, .quote14, .quote15, .quote16, .quote17, .quote18, .quote19").each(function(){
-    $(this).fadeOut(2000);*/
+   $('.ladymacbeth').fadeOut(300);
+   $('.quote21').fadeOut(0);
+   $('.quote21').delay(1000).fadeIn(3000);
+   $('.quote22').delay(1700).fadeOut(0);
+   $('.quote22').delay(2400).fadeIn(3000);
+   $('.quote23').delay(3100).fadeOut(0);
+   $('.quote23').delay(3800).fadeIn(3000);
 }); 
-
-$('.quote20').click(function(){
-	console.log('i clicked this', $(this));
-	$('.quote21').fadeOut(0);
-	$('.quote21').fadeIn(3000);
-});
-
-$('.quote21').click(function(){
-	console.log('i clicked this', $(this));
-	$('.quote22').fadeOut(0);
-	$('.quote22').fadeIn(3000);
-});
-
-$('.quote22').click(function(){
-	console.log('i clicked this', $(this));
-	$('.quote23').fadeOut(0);
-	$('.quote23').fadeIn(3000);
-});
 
 $(".quote23").click(function(){
    $(".quote20, .quote21, .quote22, .quote23").each(function(){
