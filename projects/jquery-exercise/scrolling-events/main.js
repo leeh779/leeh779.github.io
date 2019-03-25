@@ -3,7 +3,7 @@ $(function() {
   	var documentHeight = $(document).height();
 	var windowHeight = $(window).height();
 
-	$('body').append('<div id="percentage" style="position: fixed; top: 0; left: 0; height: 30px; background-color: black;"></div>');
+	$('body').append('<div id="percentage" style="background-color: black;"></div>');
 
 	var $percentageIndicator = $('#percentage');
 
@@ -19,7 +19,7 @@ $(function() {
 
 });
 
-
+/*
 var documentHeight = $(document).height();
 var $elements = $('.sidebar > *, .page-content > *');
 
@@ -31,4 +31,4 @@ $(window).on('scroll', function() {
 
   $elements.css({ transform: 'scale(' + scaleFactor + ')' });
 });
-
+*/

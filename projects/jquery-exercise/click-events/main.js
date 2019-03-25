@@ -12,7 +12,7 @@ $(function() {
   // the individual DOM element you clicked.
   var $clickTarget = $(event.target);
 
-  $clickTarget.append('<div>i clicked this</div>');
+  $clickTarget.append('<iframe src="https://giphy.com/embed/74WEv5FQY9w3e" width="480" height="349" frameBorder="0" allowFullScreen></iframe>');
 });
 
 $(document).on('click', function(event) {

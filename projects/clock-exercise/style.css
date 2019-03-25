@@ -32,7 +32,6 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background: pink;
 	width: 35%;
 	position: relative;
 	margin: 0 auto;
@@ -47,7 +46,6 @@ body {
 }
 
 .ball {
-	/*justify-content: flex-start;*/
 	border: 1px solid black;
 	width: 3%;
 	height: auto;
@@ -56,7 +54,6 @@ body {
 }
 
 .dot {
-	/*justify-content: flex-start;*/
 	border: 1px solid black;
 	width: 1%;
 	height: auto;
