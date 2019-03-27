@@ -12,7 +12,7 @@ $(function() {
   // the individual DOM element you clicked.
   var $clickTarget = $(event.target);
 
-  $clickTarget.append('<img src="http://leeh.github.io/projects/ama/img/icon-1.png" frameBorder="0" allowFullScreen></iframe>');
+  $clickTarget.append('<img src="http://leeh779.github.io/projects/ama/img/icon-1.png" frameBorder="0" allowFullScreen></iframe>');
 });
 
 $(document).on('click', function(event) {
