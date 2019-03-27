@@ -1,0 +1,20 @@
+html, body { 
+	height: 100%;
+	width: 100%;
+}
+
+h1 {
+	text-align: right;
+	font-size: 48px;
+	color: #543E1D;
+	font-family: marydale, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.table-bg {
+	margin: 8% 0 0 -0.5%;
+	background: URL(img/table-bg.jpg);
+	width: 100%;
+	height: 50%;
+}
