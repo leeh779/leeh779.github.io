@@ -1,29 +1,30 @@
 $(function() {
+  
   // Your interactions go here
-  $(document).on('click', function(event) {
-  // All javascript event handlers give you information about the event type in the event argument.
-  console.log(event);
+  	  var count = 0;
+	  $('#clickme').on('click', function(event) {
+	    // All javascript event handlers give you information about the event type in the event argument.
+	    console.log(event);
+	    // event.preventDefault() will prevent the default click event from happening in the browser.
+	    // This makes it so that clicking a link doesn't actually go to that link.
+	    event.preventDefault();
 
-  // event.preventDefault() will prevent the default click event from happening in the browser.
-  // This makes it so that clicking a link doesn't actually go to that link.
-  event.preventDefault();
+	    count++;
+	    $('.table-icon-wrap').append('<a href="sub/sub-' + count + '.html"><img class="table-icon-food" width="250" src="img/icon-' + count + '.png"/></a>');
+	  });
+	  
+	  $('.card').click(function() {
+    		$(this).toggleClass('card');
+    		$(this).toggleClass('card is-flipped');
+	  });
+	  
 
-  // You can refer to items on the event object, such as the target, which represents
-  // the individual DOM element you clicked.
-  var $clickTarget = $(event.target);
+	  /*
+	  $('.table-icon-food').mouseover(function() {
+	  		$('.table-icon-wrap').append('<div class="table-icon-label table-icon-label-' + count + '"></div>')
+	  		$('.table-icon-label').addClass('displayblock')
+	  });
+	  */
+	  
 
-  $clickTarget.append('<img src="http://leeh779.github.io/projects/ama/img/icon-1.png" frameBorder="0" allowFullScreen></iframe>');
-});
-
-$(document).on('click', function(event) {
-  event.preventDefault();
-
-  var $clickTarget = $(event.target);
-
-  $clickTarget.css({ transform: 'scale(' + randomNumber(0.5, 1.5) + ')' });
-
-  function randomNumber(min, max) {
-    return Math.random() * (max - min) + min;
-  }
-});
 });

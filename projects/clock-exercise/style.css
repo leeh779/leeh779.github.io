@@ -23,14 +23,14 @@ body {
 	display: flex;
 	width: 35%;
 	height: 5vh;
-	border-right: 2px solid blue;
+	border-right: 2px solid black;
 	margin-bottom: 2%;
 }
 
 .second-wrap {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 	width: 35%;
 	position: relative;
