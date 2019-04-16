@@ -2,7 +2,7 @@ $(function() {
   // All javascript event handlers give you information about the event type in the event argument.
   console.log('hello');
 
-  var url = 'http://api.openweathermap.org/data/2.5/weather?zip=10011,us&appid=5e354627f0a96016aa286212514a73e4'
+  var url = 'https://api.openweathermap.org/data/2.5/weather?zip=10011,us&appid=5e354627f0a96016aa286212514a73e4'
 
   $.get(url, function(data) {
     // The get request fires a callback function when the API request finishes
