@@ -4,6 +4,7 @@ body {
 	font-style: normal;
 	margin: 0;
 	background: #e6e6e6;
+	height: 100vh;
 }
 
 ul { list-style-type: none; }
@@ -18,7 +19,7 @@ a:hover { text-decoration: none; color: #666666; }
 
 h1 {
 	display: inline;
-	font-size: 36px;
+	font-size: 50px;
 	margin-block-start: 0;
     margin-block-end: 0;
     vertical-align: middle;
@@ -38,24 +39,25 @@ ul {
 	background-color: #fff;
 	display: block;
 	clear: both;
-	height: 80px;
+	height: 10%;
 }
 
 
 .top-navi-left {
 	float: left;
-	width: 40%;
+	width: 60%;
 }
 
 .top-navi-right {
 	display: block;
 	float: right;
 	text-align: right;
-	width: 55%;
-	line-height: 5;
+	width: 35%;
+	line-height: 4.2;
 }
 
 .top-navi-right a {
+	font-size: 22px;
 	cursor: pointer;
 	margin-right: 2%;
 	vertical-align: middle; 
@@ -72,20 +74,21 @@ ul {
 }
 
 .top-navi-right-hamburger-line {
-	width: 30px;
-	height: 1px;
+	width: 45px;
+	height: 2px;
 	background-color: #000;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 .top-navi-right-hamburger-inner {
 	display: none;
 	width: 100%;
-	height: 250px;
+	overflow: auto;
 	background-color: black;
 }
 
 .top-navi-right-hamburger-inner li {
+	font-size: 24px;
 	cursor: pointer;
 	color: #fff!important;
 	text-align: center;
@@ -200,7 +203,7 @@ ul {
 /* Phone breakpoint */
 @media (max-width: 768px) {
 	h1 {
-		 font-size: 24px;
+		 font-size: 40px;
 	}
 
 	.top-navi-right {
@@ -212,7 +215,7 @@ ul {
 	}
 
 	.content-wrapper {
-		width: 380px;
+		width: 450px;
 		margin: 50px auto;
 	}
 
@@ -221,7 +224,7 @@ ul {
 	}
 
 	.content-block-left {
-		font-size: 20px;
+		font-size: 24px;
 		font-weight: 700;
 	}
 
@@ -401,5 +404,9 @@ ul {
 	.content-block-right img {
 		width: 100%;
 		clear: both;
+	}
+
+	.content-block-right p {
+		font-size: 22px;
 	}
 
