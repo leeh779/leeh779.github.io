@@ -3,17 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <title>Maddie H. Lee</title>
+  <link rel="stylesheet" href="https://use.typekit.net/ins6fbo.css">
+  <link rel="stylesheet" href="style.css">
+  <!--script src="jquery-3.2.1.min.js"></script>
+  <script src="main.js"></script>
+  <script>
+        $(document).ready(function() {
+            $("#header").load("header.html");
+        });
+  </script-->
 </head>
   <body>
-	<h1>Maddie H. Lee</h1>
-    <ul class="topright-list">
-        <li><a href="index.html">PROJECTS</a></li>
-        <li></li>
-        <li>READING</li>
-        <li>ABOUT</li>
-    </ul>
-    <div class=""></div>
-    <ul>
+    <!--div id="header"></div-->
+    <!--top menu-->
+    <div class="top-navi">
+        <h1 class="top-navi-left">Maddie H. Lee</h1>
+        <div class="top-navi-right-hamburger">
+            <div class="top-navi-right-hamburger-line"></div>
+            <div class="top-navi-right-hamburger-line"></div>
+            <div class="top-navi-right-hamburger-line"></div>
+        </div>
+        <div class="top-navi-right">
+            <a href="index.html">PROJECT</a>
+            <a href="exercise/index.html">EXERCISE</a>
+            <a href="about/index.html">ABOUT</a>
+        </div>
+    </div>
+    <div class="top-navi-right-hamburger-inner">
+        <ul class="top-navi-right-hamburger-inner-ul">
+            <li><a href="index.html"><span style="color:#fff">PROJECT</span></a></li>
+            <li><a href="exercise/index.html"><span style="color:#fff">EXERCISE</span></a></li>
+            <li><a href="about/index.html"><span style="color:#fff">ABOUT</span></a></li>
+            <li class="top-navi-right-hamburger-inner-close"><span class="font-highlight">X</span></li>
+        </ul>
+    </div>
+    <!--Gallery-->
+    <div class="gallery">
+        <div class="gallery-placeholder" alt="evolving-website">
+            <!--img src="assets/imgs/project-preview/evolving-website.jpg"-->
+            <div class="gallery-content" onclick="window.open('projects-sub/evolving-website.html', '_blank');">Evolving Website (In progress)</div>
+        </div>
+        <div class="gallery-placeholder" alt="ama">
+            <img src="assets/imgs/project-preview/ama.jpg">
+            <div class="gallery-content" onclick="window.open('projects-sub/ama.html', '_blank');">AMA (Ask Me Anything)</div>
+        </div>
+        <div class="gallery-placeholder" alt="maxim">
+            <img src="assets/imgs/project-preview/maxim.jpg">
+            <div class="gallery-content" onclick="window.open('projects-sub/maxim.html', '_blank');">Maxim</div>
+        </div>
+        <div class="gallery-placeholder" alt="time-capsule">
+            <!--img src="assets/imgs/project-preview/time-capsule.jpg"-->
+            <div class="gallery-content" onclick="window.open('projects-sub/time-capsule.html', '_blank');">Time Capsule (In progress)</div>
+        </div>
+        <div class="gallery-placeholder" alt="sf-advideo">
+            <img src="assets/imgs/project-preview/sf-advideo.jpg">
+            <div class="gallery-content" onclick="window.open('projects-sub/sf-advideo.html', '_blank');">Studyforce:<br>Promotion video 2</div>
+        </div>
+        <div class="gallery-placeholder" alt="sf-advideo">
+            <img src="assets/imgs/project-preview/sf-advideo-2.jpg">
+            <div class="gallery-content" onclick="window.open('projects-sub/sf-advideo-2.html', '_blank');">Studyforce:<br>Promotion video 1</div>
+        </div>
+        <div class="gallery-placeholder" alt="insight">
+            <img src="assets/imgs/project-preview/isg.png">
+            <div id="alert-link" class="gallery-content"><a href="#modal" class="open-modal">Insight Strategy Group:<br>Powerpoint design</a></div>
+        </div>
+    </div>
+    <!--Alert-->
+    <div id="modal" class="modal-container">
+      <div class="modal">
+        <p>Unfortunately, due to NDA I can’t share details about this project. If you have any questions regarding this project, feel free to <span class="here"><a href="about/index.html" target="_blank">contact</a></span> me!</p>
+        <button id="close">Close</button>
+      </div>
+    </div>
+    <!--Alert//-->
+    <!--ul>
     <li><a href="projects/time-capsule/index.html">Time Capsule Project</a></li>
     <li><a href="projects/week2-inclass/index.html">Studio: Week 2 Exercise "Navigation"</a></li>
     <li><a href="projects/hover-demo/index.html">Studio: Hover</li>
@@ -37,6 +100,8 @@
     <li><a href="projects/jquery-exercise/index.html">Lab: jQuery Exercise</a></li>
     <li><a href="projects/api-exercise/index.html">Lab: Weather API</a></li>
     <li><a href="projects/json-exercise/index.html">Lab: Json Exercise</a></li>
-    </ul>
+    </ul-->
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
