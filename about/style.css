@@ -100,6 +100,11 @@ ul {
 	cursor: pointer;
 }
 
+.content-wrapper .profile {
+		width: 50%;
+		padding: 0 5% 5% 0;
+	}
+
 /* Phone breakpoint */
 @media (max-width: 768px) {
 	h1 {
@@ -118,7 +123,7 @@ ul {
 		font-size: 20px;
 	}
 
-	.content-wrapper img {
+	.content-wrapper .icon {
 		width: 45px;
 		margin-right: 4px;
 	}
@@ -163,7 +168,7 @@ ul {
 		font-size: 24px;
 	}
 
-	.content-wrapper img {
+	.content-wrapper .icon {
 		width: 60px;
 		margin-right: 5px;
 	}
@@ -212,7 +217,7 @@ ul {
 		font-size: 30px;
 	}
 
-	.content-wrapper img {
+	.content-wrapper .icon {
 		width: 60px;
 		margin-right: 5px;
 	}
@@ -261,7 +266,7 @@ ul {
 		font-size: 30px;
 	}
 
-	.content-wrapper img {
+	.content-wrapper .icon {
 		width: 60px;
 		margin-right: 5px;
 	}
