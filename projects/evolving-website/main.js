@@ -1,17 +1,7 @@
 $(document).ready(function () {
 
-    $("body").mousemove(function (e) {
-        handleMouseMove(e);
+    $(".input").on('click', function(event) {
+        $(".input").addClass('input')
     });
 
-    function handleMouseMove(event) {
-
-        var x = event.pageX;
-        var y = event.pageY;
-
-        $("#circle").animate({
-            left: x,
-            top: y
-        }, 1);
-    }
 });

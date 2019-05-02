@@ -7,51 +7,22 @@
   <link rel="stylesheet" href="style.css">
 </head>
   <body>
-    <h1>Type your birthday<br>to visualize it!</h1><br><br>
-    <!--select>
-      <option value="jan">Jan</option>
-      <option value="feb">Feb</option>
-      <option value="mar">Mar</option>
-      <option value="apr">Apr</option>
-      <option value="may">May</option>
-      <option value="jun">Jun</option>
-      <option value="jul">Jul</option>
-      <option value="aug">Aug</option>
-      <option value="sep">Sep</option>
-      <option value="oct">Oct</option>
-      <option value="nov">Nov</option>
-      <option value="dec">Dec</option>
-    </select-->
-    <p>
-      <span class="input">
-        <input type="text" placeholder="Month (1~12)">
-        <span></span> 
-      </span>
-    </p>
-    <p>
-      <span class="input">
-        <input type="text" placeholder="Day (1~31)">
-        <span></span> 
-      </span>
-    </p>
-    <p>
-      <span class="input">
-        <input type="text" placeholder="Year (~ 2019)">
-        <span></span> 
-      </span>
-    </p>
-    <!--p>
-      <span class="input">
-        <input type="text" placeholder="Number of Day">
-        <span></span> 
-      </span>
-    </p>
-    <p>
-      <span class="input">
-        <input type="text" placeholder="Last 2 numbers of Year">
-        <span></span> 
-      </span>
-    </p-->
+    <div class="container">
+      <div class="title">
+        <h1>Type your birthday to visualize it!</h1>
+      </div>
+      <div class="form">
+        <span class="input">
+          <input id="input-1" class="input-1" type="text" placeholder="Month (1~12)">
+        </span>
+        <span class="input">
+          <input id="input-2" class="input-2" type="text" placeholder="Day (1~31)">
+        </span>
+        <span class="input">
+          <input id="input-3" class="input-3" type="text" placeholder="Year (~2019)">
+        </span>
+      </div>
+    </div>
     <script src="jquery-3.2.1.min.js"></script>
     <script src="main.js"></script>
   </body>
