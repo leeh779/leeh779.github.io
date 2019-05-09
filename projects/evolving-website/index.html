@@ -1,29 +1,26 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Maddie H. Lee</title>
+  <title>Animation Activity</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://use.typekit.net/qhf6xwk.css">
-  <link rel="stylesheet" href="style.css">
 </head>
-  <body>
-    <div class="container">
-      <div class="title">
+<body>
+  <div id="container" class="container">
+    <div class="title">
         <h1>Type your birthday to visualize it!</h1>
-      </div>
-      <div class="form">
-        <span class="input">
-          <input id="input-1" class="input-1" type="text" placeholder="Month (1~12)">
-        </span>
-        <span class="input">
-          <input id="input-2" class="input-2" type="text" placeholder="Day (1~31)">
-        </span>
-        <span class="input">
-          <input id="input-3" class="input-3" type="text" placeholder="Year (~2019)">
-        </span>
-      </div>
     </div>
-    <script src="jquery-3.2.1.min.js"></script>
-    <script src="main.js"></script>
-  </body>
+    <div class="main-zigzag"></div>
+    <div class="main-pattern"></div>
+    <div class="input-container">
+      <input id="input-1" type="text" placeholder="Month (1~12)">
+      <input id="input-2" type="text" placeholder="Day (1~31)">
+      <input id="input-3" type="text" placeholder="Year (~2019)">
+      <button id="button" type="submit">Submit</button>
+    </div>
+  </div>
+  <img id="btn-refresh" width="70" src="assets/imgs/img-refresh.png">
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="main.js"></script>
+</body>
 </html>

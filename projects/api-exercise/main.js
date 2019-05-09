@@ -27,9 +27,9 @@ $(function() {
     console.log('wind',wind);
     $('.wind').append(wind);
 
-    var sun = data.precipitation.value;
-    console.log('rain',rain);
-    $('.rain').append(rain);
+    var pressure = data.main.pressure;
+    console.log('pressure',pressure);
+    $('.pressure').append(pressure);
   });
 
 
