@@ -13,6 +13,13 @@ h1 {
 	font-style: normal;
 }
 
+.paragraph-story {
+  font-family: dita, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+}
+
 /*card*/
 .cardalign {
   margin-left: 50px;
@@ -69,7 +76,7 @@ h1 {
 }
 
 .card__face p {
-  padding: 5px;
+  padding: 10px;
 }
 
 .card__face--back-title {
