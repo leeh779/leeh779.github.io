@@ -133,7 +133,6 @@ ul {
 
 .gallery-content {
 	background: rgba(0,0,0,0.8);
-	font-size: 30px;
   	color: #fff;
   	transition: opacity .5s;
   	opacity: 0;
@@ -143,7 +142,17 @@ ul {
   	display: flex;
   	justify-content: center;
   	align-items: center;
-  	text-align: center;
+}
+
+.gallery-content-title {
+	font-size: 30px;
+	color: red;
+	text-align: center;
+}
+
+.gallery-content-tag {
+	font-size: 24px;
+	text-align: left;
 }
 
 .gallery-placeholder:hover .gallery-content {
