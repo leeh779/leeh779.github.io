@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $(".top-navi-right-hamburger").click(function () {
-     	$(".top-navi-right-hamburger-inner").slideToggle();
-  	});
+      $(".top-navi-right-hamburger-inner").slideToggle();
+    });
 
     $(".top-navi-right-hamburger-inner-close").click(function () {
      	$(".top-navi-right-hamburger-inner").slideToggle();
