@@ -1,0 +1,159 @@
+html {
+    overflow-y: scroll;
+}
+
+body {
+	background: URL("imgs/bg-star.png") repeat;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+a { 
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+#body-old {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/** Old Window **/
+.window-old {
+    z-index: 100;
+    overflow-y: scroll;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background-color: #c0c0c0;
+    width: 40%;
+    max-height: 50%;
+}
+
+.window-old-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #000080;
+}
+
+#window-old-bar img {
+    cursor: pointer;
+}
+
+.window-old-btn-title {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.window-old-btn-min {
+    position: absolute;
+    top: 3px;
+    right: 36px;
+}
+
+.window-old-btn-max {
+    position: absolute;
+    top: 3px;
+    right: 20px;
+}
+
+.window-old-btn-close {
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 2px;
+}
+
+.window-old-dline {
+    width: 100%;
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #ffffff;
+}
+
+.window-old-toptext {
+    width: 98%;
+    margin: 5px auto 15px;
+}
+
+.window-old-topbtn {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.window-old-toplocation {
+    width: 98%;
+    margin: 3px auto;
+}
+
+.window-old-toplocation-bar {
+    float: right;
+    width: 92%;
+    border-top: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.window-old-toplocation-bar-inner {
+    width: calc(100% - 4px);
+    background: white;
+    font-size: 13px;
+    padding: 2px;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.window-old-p {
+    background: #fff;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    display: inline-block;
+    font: Times New Roman;
+    font-size: 15px;
+    padding: 15px;
+    line-height: 1.2;
+}
+
+/** Old window Alert **/
+.window-old-alert {
+    display: none;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background-color: #c0c0c0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid black;
+}
+
+.window-old-alert-content {
+    margin: 50px auto;
+    position: relative;
+    background: URL("imgs/img-gc-alert-icon.png") no-repeat;
+    width: 85%;
+    height: 50%;
+}
+
+.window-old-alert-content p {
+    margin-left:60px;
+}
+
+.window-old-alert-ok {
+    cursor: pointer;
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+    width: 94px;
+    height: 30px;
+}
