@@ -4,22 +4,22 @@
 */
 
 /* Place Image Randomly */
-var counter = 0;
+// var counter = 0;
 
-document.getElementById("body-old").addEventListener("click", function(){
-    ++counter;
+// document.getElementById("body-old").addEventListener("click", function(){
+//     ++counter;
 
-    function generateBadges() {
-      var img = document.createElement('img');
-      var position = Math.floor(Math.random() * 500);
-      img.src = 'imgs/img-gc-'+counter+'.gif';
-      img.setAttribute('style', 'position: relative;');
-      img.setAttribute('top', position);
-      img.setAttribute('left', position);
-      document.getElementById('body-old').appendChild(img);
-    }
-    generateBadges();
-});
+//     function generateBadges() {
+//       var img = document.createElement('img');
+//       var position = Math.floor(Math.random() * 500);
+//       img.src = 'imgs/img-gc-'+counter+'.gif';
+//       img.setAttribute('style', 'position: relative;');
+//       img.setAttribute('top', position);
+//       img.setAttribute('left', position);
+//       document.getElementById('body-old').appendChild(img);
+//     }
+//     generateBadges();
+// });
 
 
 /* Make Old window DRAGGABLE */
@@ -152,15 +152,15 @@ document.getElementById("img-gc-window-btn-forward").addEventListener("click", f
         alert.setAttribute(
             "style", 
             `display: block;
-             position: absolute;
-             top: 35%;
-             left: 25%;
-             width: 50%;
-             height: 50%;
-             background-color: #c0c0c0;
-             overflow: hidden;
-             text-overflow: ellipsis;
-             border: 1px solid black;`
+    position: relative;
+    top: 35%;
+    left: 10%;
+    width: 80%;
+    height: 50%;
+    background-color: #c0c0c0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid black;`
         );
 });
 
