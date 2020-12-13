@@ -39,17 +39,27 @@ a {
 }
 
 /** Window for each badge **/
+.window-badge-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .window-badge {
     float: left;
-    margin-right: 20px;
+    margin: 0 20px 20px 0;
     padding-top: 20px;
     width: 300px;
     overflow-y: scroll;
-    border: 1px solid blue;
+    border: 1px solid white;
     background: rgba(0,0,0,0.7);
 }
 
 .window-badge p {
+    font-family: "Courier New";
+    line-height: 1.2;
+    font-size: 15px;
     padding: 20px 20px 10px 20px;
     color: #fff;
 }
