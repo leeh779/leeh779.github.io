@@ -1,19 +1,14 @@
 body {
 	background: #000;
+    margin: 0;
 }
 
 
 p {
     font-family: "Courier New";
     line-height: 1.2;
-    font-size: 15px;
     padding: 5px 20px;
     overflow: auto;
-
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 
 a { 
@@ -26,12 +21,55 @@ a {
     cursor: pointer;
 }
 
+.nav-title {
+    float: left;
+    padding: 10px 15px;
+    line-height: 18px;
+}
+
+.nav-wrapper {
+    width: 100vw;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    border-top: #fff 1px solid;
+    border-left: #fff 1px solid;
+    border-bottom: #fff 1px solid;
+    color: #fff;
+    text-align: center;
+    font-family: "Courier New";
+    margin-top: 5px;
+}
+
+.nav-wrapper-right {
+    float: right;
+}
+
+.nav-wrapper-right nav {
+    padding: 10px 15px;
+    float: left;
+    cursor: pointer;
+    border-left: #fff 1px solid;
+    border-right: #fff 1px solid;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+.nav-current {
+    background-color: #fff!important;
+    color: blue!important;
+}
+
 #body-new-1 {
     position: absolute;
     margin: 0 auto;
+    top: 10%;
     z-index: 100;
     width: 350px;
-    height: 700px;
+    height: 800px;
     background: #000;
     border: 1px solid #fff;
     color: #fff;
@@ -57,10 +95,11 @@ a {
 #body-new-2 {
     display: none;
     position: absolute;
+    top: 10%;
     left: 20%;
     z-index: 100;
     width: 350px;
-    height: 700px;
+    height: 800px;
     background: #282828;
     border: 1px solid #fff;
     color: #fff;
@@ -86,10 +125,11 @@ a {
 #body-new-3 {
     display: none;
     position: absolute;
+    top: 10%;
     left: 40%;
     z-index: 100;
     width: 350px;
-    height: 650px;
+    height: 800px;
     background: #fefefe;
     border: 1px solid #fff;
     color: #000;
